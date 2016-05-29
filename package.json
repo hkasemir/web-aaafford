@@ -1,0 +1,13 @@
+{
+  "name": "aaafford-site",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "http://hkasemir.github.io/aaafford/"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-image-resize": "^0.7.1"
+  },
+  "dependencies": {}
+}

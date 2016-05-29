@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.75em;
+}
+
+a {
+  color: rgba(50,150,250,1);
+}
+
+article {
+  padding: 3em;
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article p {
+  padding-bottom: 1em;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+  background: white;
+}
+
+fieldset {
+  margin-top: 20px;
+}
+
+footer {
+  width: 100%;
+  color: grey;
+  bottom: 0;
+  position: relative;
+  background-color: black;
+  font-size: 12px;
+  overflow: visible;
+}
+
+h2 {
+  margin-bottom: 1.5em;
+}
+
+iframe {
+  height: 400px;
+  width: 100%;
+  margin: 20px 13px;
+}
+
+input:focus, input:hover {
+  box-shadow: 2px 2px 2px black;
+}
+
+form {
+  text-align: right;
+}
+
+footer p {
+  padding: 40px 10px;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 20em;
+  margin-bottom: 2em;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ccc;
+}
+
+nav.main-menu ul>li.active a {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.accredit {
+  bottom: 35px;
+  padding: 10px;
+  right: 20px;
+  position: absolute;
+}
+
+.btn {
+  padding: 1em 2em;
+  background: rgba(0,0,0,.7);
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 40px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-4 {
+  text-align: center;
+  padding: 2em;
+  flex: 1;
+  min-width: 16.4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.col-4 a {
+  bottom: 10px;
+  position: relative;
+}
+
+.col-6 {
+  flex: 1;
+  text-align: center;
+  padding: 3em;
+}
+
+.login-form {
+  padding-top: 20px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 310px;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  height: 100%;
+  padding: 1em;
+}
+
+.main-menu li a:hover {
+  color: #ccc;
+  text-decoration: underline;
+  transition: .35s all, .35s color;
+/*	background-color: hsla(200, 100%, 10%, .5);*/
+}
+
+.main-menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.main-menu ul {
+  text-align: center;
+  justify-content: center;
+}
+
+.main-menu li:first-child {
+  float: left;
+}
+
+.main-menu li:last-child {
+  float: right;
+}
+
+.main-menu {
+  background-color: rgba(0,0,0,0.6);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.row {
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.map {
+  background: black;
+  color: #cccccc;
+
+}
+
+.support a, .support p, .support h2 {
+  z-index: 100;
+}
+
+.support {
+  background-size: cover;
+  height: 400px;
+  text-align: left;
+  padding: 4em 5em;
+  color: white;
+  text-shadow: 0 0 0.7em black;
+  z-index: 0;
+  position: relative;
+}
+
+img.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+}
+
+.splash img {
+  -webkit-filter: brightness(.75);
+  filter: brightness(.75);
+}
+
+.splash {
+  position: relative;
+  height: 400px;
+  text-align: left;
+  padding: 4em 5em;
+}
+
+.splash h1 {
+  color: white;
+  text-shadow: 0 0 0.7em black;
+}
+
+.splash a {
+  padding: 1.5em 3em;
+  background: rgba(0,0,0,.7);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 3em;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.support {
+  padding: 3em;
+  text-align: center;
+}
+
+.username, .password {
+  float: left;
+}
+
+
+.site-map a {
+  text-decoration: none;
+  color: #4C7C91;
+  font-size: 14px;
+  padding: .75em 1em
+}
+
+.site-map ul {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.site-map li {
+  display: inline;
+  list-style: none;
+  border-right: solid #1A2F38 1px;
+}
+
+.site-map li:last-child {
+  border: none;
+}
+
+div.profile {
+  text-align: center;
+  padding: 2em 2em 0 2em;
+  font-style: italic;
+}
+
+div.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .row {
+        display: block;
+    }
+    
+    .col-4, .col-6 {
+        width: 100%;
+    }
+    
+    .site-map li {
+        display: block;
+        border: none;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .site-map ul {
+        text-align: left;
+    }
+    
+    footer p {
+        text-align: left;
+    }  
+    
+    .accredit {
+        position: relative;
+        right: 0;
+    }
+    
+    iframe {
+        height: 250px;
+    }
+
+    .main-menu li {
+        display: block;
+    }
+
+    .main-menu li:first-child, .main-menu li:last-child  {
+        display: block;
+        float: none;
+    }
+    
+    .splash h1 {
+        font-size: 1.7em;
+    }
+}
